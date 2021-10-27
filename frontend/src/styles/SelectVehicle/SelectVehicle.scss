@@ -1,0 +1,29 @@
+#selectVehicleView {
+  @media (max-width: 480px) {
+    width: 100vw;
+  }
+
+  @media (min-width: 481px) and (max-width: 880px) {
+    width: 50vw;
+  }
+
+  @media (min-width: 881px) and (max-width: 1280px) {
+    width: 35vw;
+  }
+
+  @media (min-width: 1281px) {
+    width: 20vw;
+  }
+
+  .showVehicles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #e61a57;
+  }
+
+  .numOfVehicles {
+    color: #e61a57;
+  }
+}
